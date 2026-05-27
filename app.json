@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Ocean Bookstore",
+    "slug": "ocean-bookstore",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D3B66"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.oceanbooks.bookstore"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D3B66"
+      },
+      "package": "com.oceanbooks.bookstore"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Ocean Bookstore to access your photos to set your profile picture.",
+          "cameraPermission": "Allow Ocean Bookstore to use your camera for profile photos."
+        }
+      ]
+    ]
+  }
+}
